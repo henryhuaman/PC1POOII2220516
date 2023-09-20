@@ -22,6 +22,8 @@ public class Main {
         SendGridAdapter adapter1 = new SendGridAdapter(sg);
         SMTPAdapter adapter2 = new SMTPAdapter(smtp);
         
+        adapter1.send("mail");
+        adapter2.send("mail");
         
         
         
