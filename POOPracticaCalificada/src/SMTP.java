@@ -17,6 +17,6 @@ public class SMTP {
     
     
     public void api(String request){
-        
+        System.out.println("te llego un reporte sobre "+request);
     }
 }
